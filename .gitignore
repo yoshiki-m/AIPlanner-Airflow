@@ -1,0 +1,19 @@
+**/__pycache__/**
+*.code-workspace
+.env
+.venv
+.vscode/**
+.vscode/settings.json
+aandi/config/dataloader/**
+airflow/**
+bin/.deploy.list
+# common/config/dataloader/**
+config/cloudsql/**
+config/google_drive.json
+config/jinzaisystem-tool-composer.json
+config/jinzaisystem-tool-gas-iam-admin.json
+works/**
+config/jinzaisystem-tool-iam-manager.json
+tests/tmp/**
+config/dev-jinzaisystem-tool-composer.json
+*.DS_Store
