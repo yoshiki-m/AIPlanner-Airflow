@@ -13,12 +13,12 @@ def notify_error_task(context):
     """
     print(context['params'])
 
-    # キー'notification'の有無チェック
-    if 'notification' in context['params']:
-        if 'slack' in context['params']['notification']:
-            # Slackに通知
-            slack.notify_error_task(context)
-        if 'chatwork' in context['params']['notification']:
-            # chatworkに通知
-            chatwork.notify_error_task(context)
+    # # キー'notification'の有無チェック
+    # if 'notification' in context['params']:
+    #     if 'slack' in context['params']['notification']:
+    #         # Slackに通知
+    #         slack.notify_error_task(context)
+    #     if 'chatwork' in context['params']['notification']:
+    #         # chatworkに通知
+    #         chatwork.notify_error_task(context)
 

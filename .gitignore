@@ -12,6 +12,7 @@ config/cloudsql/**
 config/google_drive.json
 config/jinzaisystem-tool-composer.json
 config/jinzaisystem-tool-gas-iam-admin.json
+aiplanner-258406-eaa91199635f.json
 works/**
 config/jinzaisystem-tool-iam-manager.json
 tests/tmp/**
