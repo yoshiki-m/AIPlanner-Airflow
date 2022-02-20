@@ -1,19 +1,26 @@
 Select
     Id,
-    karteID__c,
-    nn咳がす,
+    customer__c,
+    keiyakuhantei__c,
+    kartesaitensyokai__c,
+    uriagekeijoubiOREXLK__c,
+    saisyukontakutobi__c,
+    LandSearch__c,
+    TochiKounyumoushkomibi__c,
     Douki__c,
     Kenen__c,
     SenzaiNeeds__c,
     RoadMap__c,
     Milestone__c,
     KibousougakuyosanSuushiki__c,
+    TatemonoyosanSuushiki__c,
     ChiikiEnsenEkimeiSuushiki__c,
     ChiikiEnsenEkimeiRiyuuSuushiki__c,
     ChumonJutakuRiyuuSuushiki__c,
     NyuukyoJikiSuushiki__c,
     NyuukyoJikiRiyuuSuushiki__c,
-    KariireKenenRiyuu__c
+    KariireKenenRiyuu__c,
+    SalarySum__c
 FROM
     karte__c
 WHERE

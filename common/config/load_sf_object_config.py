@@ -24,5 +24,6 @@ sf_object_list = {
     'group0': [
         {'name': 'Account', 'link_type': ALL_LINKAGE},
         {'name': 'karte__c', 'link_type': ALL_LINKAGE},
+        {'name': 'karte__History', 'link_type': ALL_LINKAGE},
     ],
 }

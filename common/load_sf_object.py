@@ -41,7 +41,7 @@ default_dag_args = {
 
 with DAG(
         dag_id='COMMON_load_sf_object',
-        schedule_interval='0 0 * * *',
+        schedule_interval='0 15 * * *',
         concurrency=4,
         default_args=default_dag_args,
         is_paused_upon_creation=True) as dag:
